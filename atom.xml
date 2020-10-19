@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://scholar.nexmoe.com</id>
+    <title>折影轻梦</title>
+    <updated>2020-10-19T07:52:33.507Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://scholar.nexmoe.com"/>
+    <link rel="self" href="https://scholar.nexmoe.com/atom.xml"/>
+    <subtitle>热爱生命</subtitle>
+    <logo>https://scholar.nexmoe.com/images/avatar.png</logo>
+    <icon>https://scholar.nexmoe.com/favicon.ico</icon>
+    <rights>All rights reserved 2020, 折影轻梦</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://scholar.nexmoe.com/72gx3_gP_/</id>
+        <link href="https://scholar.nexmoe.com/72gx3_gP_/">
+        </link>
+        <updated>2020-10-19T06:25:50.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="标题h1">标题H1</h1>
+<h2 id="标题h2">标题H2</h2>
+<h3 id="标题h3">标题H3</h3>
+<h4 id="标题h4">标题H4</h4>
+<h5 id="标题h5">标题H5</h5>
+<h6 id="标题h5-2">标题H5</h6>
+<h3 id="字符效果和横线等">字符效果和横线等</h3>
+<hr>
+<p><s>删除线</s> <s>删除线（开启识别HTML标签时）</s></p>
+<p><em>斜体字</em>      <em>斜体字</em></p>
+<p><strong>粗体</strong>  <strong>粗体</strong></p>
+<p><em><strong>粗斜体</strong></em> <em><strong>粗斜体</strong></em></p>
+<p>上标：X<sub>2</sub>，下标：O<sup>2</sup></p>
+<p><strong>缩写(同HTML的abbr标签)</strong></p>
+<blockquote>
+<p>即更长的单词或短语的缩写形式，前提是开启识别HTML标签时，已默认开启</p>
+</blockquote>
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+<h3 id="引用-blockquotes">引用 Blockquotes</h3>
+<blockquote>
+<p>引用文本 Blockquotes</p>
+</blockquote>
+<p>引用的行内混合 Blockquotes</p>
+<blockquote>
+<p>引用：如果想要插入空白换行<code>即&lt;br /&gt;标签</code>，在插入处先键入两个以上的空格然后回车即可，<a href="https://www.mdeditor.com/">普通链接</a>。</p>
+</blockquote>
+<h3 id="锚点与链接-links">锚点与链接 Links</h3>
+<p><a href="https://www.mdeditor.com/">普通链接</a><br>
+<a href="https://www.mdeditor.com/" title="普通链接带标题">普通链接带标题</a><br>
+直接链接：<a href="https://www.mdeditor.com">https://www.mdeditor.com</a><br>
+[锚点链接][anchor-id]<br>
+[anchor-id]: https://www.mdeditor.com/<br>
+<a href="mailto:test.test@gmail.com">mailto:test.test@gmail.com</a><br>
+GFM a-tail link @pandao<br>
+邮箱地址自动链接 test.test@gmail.com  www@vip.qq.com</p>
+<blockquote>
+<p>@pandao</p>
+</blockquote>
+<h3 id="多语言代码高亮-codes">多语言代码高亮 Codes</h3>
+<h4 id="行内代码-inline-code">行内代码 Inline code</h4>
+<p>执行命令：<code>npm install marked</code></p>
+<h4 id="缩进风格">缩进风格</h4>
+<p>即缩进四个空格，也做为实现类似 <code>&lt;pre&gt;</code> 预格式化文本 ( Preformatted Text ) 的功能。</p>
+<pre><code>&lt;?php
+    echo &quot;Hello world!&quot;;
+?&gt;
+</code></pre>
+<p>预格式化文本：</p>
+<pre><code>| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+</code></pre>
+<h4 id="js代码">JS代码</h4>
+<pre><code class="language-javascript">function test() {
+	console.log(&quot;Hello world!&quot;);
+}
+</code></pre>
+<h4 id="html-代码-html-codes">HTML 代码 HTML codes</h4>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;mate charest=&quot;utf-8&quot; /&gt;
+        &lt;meta name=&quot;keywords&quot; content=&quot;Editor.md, Markdown, Editor&quot; /&gt;
+        &lt;title&gt;Hello world!&lt;/title&gt;
+        &lt;style type=&quot;text/css&quot;&gt;
+            body{font-size:14px;color:#444;font-family: &quot;Microsoft Yahei&quot;, Tahoma, &quot;Hiragino Sans GB&quot;, Arial;background:#fff;}
+            ul{list-style: none;}
+            img{border:none;vertical-align: middle;}
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1 class=&quot;text-xxl&quot;&gt;Hello world!&lt;/h1&gt;
+        &lt;p class=&quot;text-green&quot;&gt;Plain text&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h3 id="图片-images">图片 Images</h3>
+<p>图片加链接 (Image + Link)：</p>
+<figure data-type="image" tabindex="1"><a href="https://www.mdeditor.com/images/logos/markdown.png" title="markdown"><img src="https://www.mdeditor.com/images/logos/markdown.png" alt="" loading="lazy"></a></figure>
+<blockquote>
+<p>Follow your heart.</p>
+</blockquote>
+<hr>
+<h3 id="列表-lists">列表 Lists</h3>
+<h4 id="无序列表减号unordered-lists-">无序列表（减号）Unordered Lists (-)</h4>
+<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+<h4 id="无序列表星号unordered-lists">无序列表（星号）Unordered Lists (*)</h4>
+<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+<h4 id="无序列表加号和嵌套unordered-lists">无序列表（加号和嵌套）Unordered Lists (+)</h4>
+<ul>
+<li>列表一</li>
+<li>列表二
+<ul>
+<li>列表二-1</li>
+<li>列表二-2</li>
+<li>列表二-3</li>
+</ul>
+</li>
+<li>列表三
+<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+</li>
+</ul>
+<h4 id="有序列表-ordered-lists-">有序列表 Ordered Lists (-)</h4>
+<ol>
+<li>第一行</li>
+<li>第二行</li>
+<li>第三行</li>
+</ol>
+<h4 id="gfm-task-list">GFM task list</h4>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9271638"><label class="task-list-item-label" for="task-item-9271638"> GFM task list 1</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9143805"><label class="task-list-item-label" for="task-item-9143805"> GFM task list 2</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5316954"><label class="task-list-item-label" for="task-item-5316954"> GFM task list 3</label>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4384672"><label class="task-list-item-label" for="task-item-4384672"> GFM task list 3-1</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3337690"><label class="task-list-item-label" for="task-item-3337690"> GFM task list 3-2</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3832083"><label class="task-list-item-label" for="task-item-3832083"> GFM task list 3-3</label></li>
+</ul>
+</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2679160"><label class="task-list-item-label" for="task-item-2679160"> GFM task list 4</label>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6046217"><label class="task-list-item-label" for="task-item-6046217"> GFM task list 4-1</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4198790"><label class="task-list-item-label" for="task-item-4198790"> GFM task list 4-2</label></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="绘制表格-tables">绘制表格 Tables</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th style="text-align:right">价格</th>
+<th style="text-align:center">数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>计算机</td>
+<td style="text-align:right">$1600</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td>手机</td>
+<td style="text-align:right">$12</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td>管线</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Function name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>help()</code></td>
+<td>Display the help window.</td>
+</tr>
+<tr>
+<td><code>destroy()</code></td>
+<td><strong>Destroy your computer!</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Left-Aligned</th>
+<th style="text-align:center">Center Aligned</th>
+<th style="text-align:right">Right Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">col 3 is</td>
+<td style="text-align:center">some wordy text</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td style="text-align:left">col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td style="text-align:left">zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align:right">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computer</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="特殊符号-html-entities-codes">特殊符号 HTML Entities Codes</h4>
+<p>© &amp;  ¨ ™ ¡ £<br>
+&amp; &lt; &gt; ¥ € ® ± ¶ § ¦ ¯ « ·</p>
+<p>X² Y³ ¾ ¼  ×  ÷   »</p>
+<p>18ºC  &quot;  '</p>
+<p>[========]</p>
+<h3 id="emoji表情-smiley">Emoji表情 😃</h3>
+<blockquote>
+<p>Blockquotes ⭐️</p>
+</blockquote>
+<h4 id="gfm-task-lists-emoji-fontawesome-icon-emoji-editormd-logo-emoji-editormd-logo-5x">GFM task lists &amp; Emoji &amp; fontAwesome icon emoji &amp; editormd logo emoji :editormd-logo-5x:</h4>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3550625"> 😃 @mentions, 😃 #refs, <a href="">links</a>, <strong>formatting</strong>, and <del>tags</del><label class="task-list-item-label" for="task-item-3550625"> :smiley: @mentions, :smiley: #refs, [links](), **formatting**, and <del>tags</del> supported :editormd-logo:;</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3931510"><label class="task-list-item-label" for="task-item-3931510"> list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9465616"><label class="task-list-item-label" for="task-item-9465616"> [ ] :smiley: this is a complete item :smiley:;</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1545475"> []this is an incomplete item <a href="#">test link</a><label class="task-list-item-label" for="task-item-1545475"> []this is an incomplete item [test link](#) :fa-star: @pandao;</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8806736"><label class="task-list-item-label" for="task-item-8806736"> [ ]this is an incomplete item :fa-star: :fa-gear:;</label>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8989173"> 😃 this is an incomplete item <a href="#">test link</a><label class="task-list-item-label" for="task-item-8989173"> :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8397488"> 😃 this is  :fa-star: :fa-gear: an incomplete item <a href="#">test link</a><label class="task-list-item-label" for="task-item-8397488"> :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);</label></li>
+</ul>
+</li>
+</ul>
+<h4 id="反斜杠-escape">反斜杠 Escape</h4>
+<p>*literal asterisks*</p>
+<p>[========]</p>
+<h3 id="科学公式-texkatex">科学公式 TeX(KaTeX)</h3>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E=mc^2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mord mathdefault">m</span><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>行内的公式$$E=mc<sup>2$$行内的公式，行内的$$E=mc</sup>2$$公式。</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>&gt;</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x &gt; y
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span></span></p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Can&#039;t use function &#039;\(&#039; in math mode at position 1: \̲(̲\sqrt{3x-1}+(1+…'>\(\sqrt{3x-1}+(1+x)^2\)
+</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>sin</mi><mo>⁡</mo><mo>(</mo><mi>α</mi><msup><mo>)</mo><mi>θ</mi></msup><mo>=</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>0</mn></mrow><mi>n</mi></munderover><mo>(</mo><msup><mi>x</mi><mi>i</mi></msup><mo>+</mo><mi>cos</mi><mo>⁡</mo><mo>(</mo><mi>f</mi><mo>)</mo><mo>)</mo></mrow><annotation encoding="application/x-tex">\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.149108em;vertical-align:-0.25em;"></span><span class="mop">sin</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8991079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.929066em;vertical-align:-1.277669em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6513970000000002em;"><span style="top:-1.872331em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span><span style="top:-3.050005em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3000050000000005em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.277669em;"><span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8746639999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop">cos</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mclose">)</span><span class="mclose">)</span></span></span></span></span></p>
+<p>多行公式：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><msup><mrow><mo fence="true">(</mo><mo>∑</mo><mi mathvariant="normal">_</mi><msup><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msup><mi>a</mi><mi mathvariant="normal">_</mi><mi>k</mi><mi>b</mi><mi mathvariant="normal">_</mi><mi>k</mi><mo fence="true">)</mo></mrow><mn>2</mn></msup><mo>≤</mo><mrow><mo fence="true">(</mo><mo>∑</mo><mi mathvariant="normal">_</mi><msup><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msup><mi>a</mi><mi mathvariant="normal">_</mi><msup><mi>k</mi><mn>2</mn></msup><mo fence="true">)</mo></mrow><mrow><mo fence="true">(</mo><mo>∑</mo><mi mathvariant="normal">_</mi><msup><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msup><mi>b</mi><mi mathvariant="normal">_</mi><msup><mi>k</mi><mn>2</mn></msup><mo fence="true">)</mo></mrow></mstyle></mrow><annotation encoding="application/x-tex"> \displaystyle
+\left( \sum\_{k=1}^n a\_k b\_k \right)^2
+\leq
+\left( \sum\_{k=1}^n a\_k^2 \right)
+\left( \sum\_{k=1}^n b\_k^2 \right)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.004028em;vertical-align:-0.65002em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">(</span></span><span class="mop op-symbol large-op" style="position:relative;top:-0.000004999999999977245em;">∑</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord" style="margin-right:0.02778em;">_</span><span class="mord"><span class="mord"><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.748732em;"><span style="top:-3.1473400000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span><span class="mord mathdefault">a</span><span class="mord" style="margin-right:0.02778em;">_</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault">b</span><span class="mord" style="margin-right:0.02778em;">_</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">)</span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.3540079999999999em;"><span style="top:-3.6029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.80002em;vertical-align:-0.65002em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">(</span></span><span class="mop op-symbol large-op" style="position:relative;top:-0.000004999999999977245em;">∑</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord" style="margin-right:0.02778em;">_</span><span class="mord"><span class="mord"><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.748732em;"><span style="top:-3.1473400000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span><span class="mord mathdefault">a</span><span class="mord" style="margin-right:0.02778em;">_</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">)</span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">(</span></span><span class="mop op-symbol large-op" style="position:relative;top:-0.000004999999999977245em;">∑</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord" style="margin-right:0.02778em;">_</span><span class="mord"><span class="mord"><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.748732em;"><span style="top:-3.1473400000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span><span class="mord mathdefault">b</span><span class="mord" style="margin-right:0.02778em;">_</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">)</span></span></span></span></span></span></span></p>
+<pre><code class="language-katex">\displaystyle
+    \frac{1}{
+        \Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{
+        \frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {
+        1+\frac{e^{-6\pi}}
+        {1+\frac{e^{-8\pi}}
+         {1+\cdots} }
+        }
+    }
+</code></pre>
+<pre><code class="language-latex">f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+</code></pre>
+<h3 id="分页符-page-break">分页符 Page break</h3>
+<blockquote>
+<p>Print Test: Ctrl + P</p>
+</blockquote>
+<p>[========]</p>
+<h3 id="绘制流程图-flowchart">绘制流程图 Flowchart</h3>
+<pre><code class="language-flow">st=&gt;start: 用户登陆
+op=&gt;operation: 登陆操作
+cond=&gt;condition: 登陆成功 Yes or No?
+e=&gt;end: 进入后台
+
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+</code></pre>
+<p>[========]</p>
+<h3 id="绘制序列图-sequence-diagram">绘制序列图 Sequence Diagram</h3>
+<pre><code class="language-seq">Andrew-&gt;China: Says Hello
+Note right of China: China thinks\nabout it
+China--&gt;Andrew: How are you?
+Andrew-&gt;&gt;China: I am good thanks!
+</code></pre>
+<h3 id="end">End</h3>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于吃饭应当注意的健康问题]]></title>
+        <id>https://scholar.nexmoe.com/guan-yu-chi-fan-ying-dang-zhu-yi-de-jian-kang-wen-ti/</id>
+        <link href="https://scholar.nexmoe.com/guan-yu-chi-fan-ying-dang-zhu-yi-de-jian-kang-wen-ti/">
+        </link>
+        <updated>2020-10-19T05:47:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>一些需要注意的常识性问题</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>一些需要注意的常识性问题</p>
+<!--more-->
+<h2 id="饭后不要立即运动">饭后不要立即运动</h2>
+<h4 id="关于运动">关于运动</h4>
+<p>饭前立即进行运动，餐后饱腹感更强。</p>
+<p>饭后，人体大部分血液集中在胃和肝脏中，运动会导致血液流向肌肉组织从而引起胃部不适。长期以往可能会导致与胃相关的疾病。</p>
+<p>饭后运动可能导致暂时性低血糖，因为胃需要大量供血。</p>
+<p>建议1~2小时后再运动，时间可自行控制在食物大概已经消化完毕的时候</p>
+<h4 id="关于散步">关于散步</h4>
+<p>《摄养枕中方》中记载“食止行数百步，大益人。”说的是饭后缓行，可促进胃肠蠕动，有助于胃肠消化液的分泌和食物的消化吸收。但不可快走，不可进行剧烈运动。散步的时间应是饭后20分钟，绝不是刚吃完饭就出去散步。但体质较差和患有<a href="https://baike.baidu.com/item/%E8%83%83%E4%B8%8B%E5%9E%82">胃下垂</a>等病的人，饭后不宜散步，而要在饭后平卧10分钟。患有心脑血管病的人也不适合。</p>
+<h2 id="不要饭后立即漱口">不要饭后立即漱口</h2>
+<p>饭后短时间内漱口会磨损牙齿，建议<strong>半小时</strong>后再漱口</p>
+<p><strong>但值得注意的是，饭后漱口有助于牙齿 口腔健康</strong></p>
+<p>古代医学家<a href="https://baike.baidu.com/item/%E5%BC%A0%E4%BB%B2%E6%99%AF">张仲景</a>指出“食毕当漱，令齿不败而口香。”保持口腔湿润度和清洁，可刺激舌上味蕾，增强味觉功能，有效防治口腔及牙齿疾病，并帮助消化。</p>
+<h2 id="吃饭听音乐有助于消化">吃饭听音乐有助于消化</h2>
+<p>《寿世保元》中说“脾好音乐，闻声即动而磨食。”道家也有“脾脏闻乐则磨”的说法。吃饭时听柔和清新的音乐，能促进食欲并有助于消化，而饭后欣赏音乐，可以陶冶性情，使元气归宗，乐而忘忧。</p>
+<p>1.233<br>
+2.3123123</p>
+<ul>
+<li>
+<p><a href="https://europepmc.org/article/MED/32982972">Post Meal Exercise May Lead to Transient Hypoglycemia Irrespective of Glycemic Status in Humans.</a></p>
+</li>
+<li>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0939475320301368">Does exercising before or after a meal affect energy balance in adolescents with obesity?</a></p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://scholar.nexmoe.com/hello-gridea/</id>
+        <link href="https://scholar.nexmoe.com/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
