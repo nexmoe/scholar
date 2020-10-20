@@ -374,7 +374,6 @@ td {
   padding: 8px 16px;
   flex-shrink: 0;
   font-weight: 600;
-  transition: none;
 }
 .site-header .avatar {
   margin-bottom: 24px;
